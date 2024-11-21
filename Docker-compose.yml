@@ -1,0 +1,9 @@
+Version: "3"
+services:
+ redis:
+  image: redis
+ applications:
+  image: dockerfacile/app
+  ports:
+   - 5000:5000
+   
